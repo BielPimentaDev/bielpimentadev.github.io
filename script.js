@@ -1,6 +1,5 @@
 const imgs = document.querySelectorAll('.container img')
 const container = document.querySelector('.container')
-
 const nextBtn = document.querySelector('#next')
 const beforeBtn = document.querySelector('#before')
 
@@ -8,6 +7,9 @@ let cont = 0
 
 
 function carrossel(){
+    console.log(cont)
+    console.log(container.offsetWidht)
+
     cont ++
     if (cont > imgs.length - 1){
         cont = 0
@@ -33,4 +35,6 @@ beforeBtn.onclick = function(){
 
 
 setInterval(carrossel,8000)
+
+
 
