@@ -1,3 +1,6 @@
+:root{
+    --color1:rgb(11, 184, 253);
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +10,15 @@
 }
 
 body{
-    background-color: rgb(221, 221, 221);
+    display: flex;    
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
     
 }
-span{
+header h1{
+    color: white;
+} 
+header span{
     color:rgb(11, 184, 253) ;
 }
 

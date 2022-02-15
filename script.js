@@ -25,8 +25,8 @@ nextBtn.onclick = function(){
 
 beforeBtn.onclick = function(){
     cont --
-    if (cont == 0){
-        cont = imgs.length
+    if (cont < 0){
+        cont = imgs.length - 1
     }
     container.style.transform = `translateX(${-cont*100}%)`
 }
