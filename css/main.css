@@ -171,5 +171,18 @@ footer{
 }
 
 footer a {
-    color: var(--color1)
+    color: var(--color1);
+    padding: 15px
+}
+footer h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer span{
+    letter-spacing: 2px;
+}
+.social-sction{
+    margin-top: 15px;
+    
 }
