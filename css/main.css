@@ -1,0 +1,40 @@
+.carrossel{
+
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.container{
+
+    display: flex;
+    transition: transform 500ms ease-in-out;
+    transform: translateX(0);
+}
+.carrossel img{
+    z-index: 0;
+    flex: none;
+    object-fit: cover;
+    width: 100%;
+    height: 90vh
+}
+
+.btn{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    opacity: 0.2;
+    transition: opacity 300ms ease;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+}
+.next{
+    right: 0;
+    
+}
